@@ -279,7 +279,20 @@
     -moz-osx-font-smoothing: grayscale;
     margin-right: 10px;
     font-size: 8px;
-  }
+    /* content: "";
+    width: 2px;
+    height: 15px;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 2px;
+    background: #16c7ff; */
+  }    
+
+  /* .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a:hover:before { 
+    background: #d1eef7;
+  }  
+  */
   
   .sidebar-wrapper .sidebar-menu ul li a span.label,
   .sidebar-wrapper .sidebar-menu ul li a span.badge {
@@ -472,7 +485,8 @@
   .chiller-theme .sidebar-wrapper .sidebar-menu .sidebar-dropdown div,
   .chiller-theme .sidebar-wrapper .sidebar-search input.search-menu,
   .chiller-theme .sidebar-wrapper .sidebar-search .input-group-text {
-      background: #3a3f48;
+      /* background: #3a3f48; */
+      background: linear-gradient(to top, #3a3f48 95%, transparent 100%);
   }
   
   .chiller-theme .sidebar-wrapper .sidebar-menu .header-menu span {

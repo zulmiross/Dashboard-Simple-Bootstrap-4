@@ -27,7 +27,7 @@
 
 <body>
 
-    <header class="navbar navbar-light navbar-expanded-md stick-top flex-md-nowarap bg-warning">        
+    <header class="navbar navbar-light navbar-expanded-md stick-top flex-md-nowarap bg-warning">
         <a class="navbar-brand" href="index.html">
             <span class="text-white">ZULU</span><span>DESIGNER</span>
         </a>
@@ -48,11 +48,22 @@
                 <div class="position-sticky pt-3">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
+                            <a class="nav-link active" href="#">
                                 <i class="fas fa-home"></i>
                                 Dashboard
                             </a>
                         </li>
+                        <li class="nav-item">                           
+                            <a class="nav-link collapsed" href="#submenu" data-toggle="collapse">
+                                <i class="fas fa-store"></i>
+                                Multilevel 
+                            </a>
+                            <ul id="submenu" class="collapse">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"> <i class="fas fa-home"></i>page1</a>
+                                </li>
+                            </ul>
+                        </li>                 
                         <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <i class="far fa-file"></i>
@@ -88,7 +99,7 @@
             </nav>
 
             <main class="col-md-10 ml-auto">
-               Conteudo
+                Conteudo
             </main>
 
         </div>
